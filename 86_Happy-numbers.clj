@@ -1,4 +1,4 @@
-;; Happy numbers - http://www.4clojure.com/problem/86
+;; #86 Happy numbers - http://www.4clojure.com/problem/86
 
 (fn happy-number? [number]
   (loop [n number seen #{}]
